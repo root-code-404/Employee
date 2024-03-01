@@ -1,0 +1,76 @@
+/* EmployeeList.css */
+
+.employee-list-container {
+    margin-top: 20px;
+}
+
+.employee-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.employee-details:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.employee-name {
+    font-weight: bold;
+}
+
+.employee-description {
+    color: #555;
+}
+.employee-list-container {
+    padding: 20px;
+}
+
+.employee-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee-name {
+    flex: 1;
+}
+
+.employee-description {
+    flex: 2;
+    margin-left: 10px;
+    /* Add some spacing between name and description */
+}
+
+.employee-actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    /* Add some spacing between buttons */
+}
+
+/* EmployeeList.css */
+
+.edit-btn {
+    background: linear-gradient(to right,#8e2de2, #4a00e0);
+
+    border-color: transparent;
+        /* Set border color to transparent */
+}
+
+.delete-btn {
+    background: linear-gradient(to right, #ee4e4e, #ff577b);
+    border: none;
+    border-color: #ff577b;/* Set border color to transparent */
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.8;
+}

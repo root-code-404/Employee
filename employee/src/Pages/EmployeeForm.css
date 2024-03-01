@@ -1,0 +1,47 @@
+/* EmployeeForm.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add box shadow */
+    transition: box-shadow 0.3s ease;
+    /* Add transition for box shadow */
+}
+
+.form-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Change box shadow on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* EmployeeForm.css */
+
+.btn-submit {
+    margin-top: 20px;
+    background: linear-gradient(to right, #212632, #1d203df1);
+    /* Add gradient background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    /* Add transition for transform */
+}
+
+.btn-submit:hover {
+    transform: scale(1.05) translateY(-2px);
+    /* Scale up and move slightly up on hover */
+}
